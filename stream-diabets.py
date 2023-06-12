@@ -1,9 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-# Membaca model
-diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
-
 # Membaca data dari file CSV
 data = pd.read_csv('diabetes.csv')
 
