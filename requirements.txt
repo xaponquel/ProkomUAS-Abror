@@ -1,6 +1,6 @@
 numpy
 pandas
 streamlit
-pip
+pip==22.0.3
 pickle
 scikit-learn
